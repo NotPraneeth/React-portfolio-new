@@ -1,8 +1,9 @@
 
 
 .Skills-container{
-    height: 100vh;
+    height: 100vh !important;
     /* background: url('./assets/ring.mp4'); */
+    overflow: hidden;
 }
 video{
     width: 100%;
