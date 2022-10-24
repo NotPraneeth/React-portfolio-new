@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='Contact-container'>Contact</div>
   )
 }
 
