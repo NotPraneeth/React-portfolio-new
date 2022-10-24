@@ -20,7 +20,7 @@ function App() {
           new LocomotiveScroll({
              el: container,
              smooth: true,
-             lerp: .01,
+             lerp: .06,
              multiplier: .5
           });
     
