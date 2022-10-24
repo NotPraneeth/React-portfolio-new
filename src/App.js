@@ -4,6 +4,8 @@ import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
+import './fonts/Break-Regular.woff';
+import './fonts/Break-Regular.woff2';
 function App() {
   return (
     <div className="App">
