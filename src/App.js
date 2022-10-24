@@ -12,6 +12,7 @@ import './fonts/Break-Regular.woff2';
 import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
 
+
 function App() {
   // let container = useRef(null);
     

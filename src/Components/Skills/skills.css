@@ -8,12 +8,14 @@
 
 }
 .skills1{
+    font-size: 35px;
     font-weight: 600;
     font-family: 'Roboto Mono', monospace;
     margin-left: 5vw;
 }
 .skills2{
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 900;
     font-family: 'Roboto Mono', monospace;
     margin-left: 75vw;
 }
