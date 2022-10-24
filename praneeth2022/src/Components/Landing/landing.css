@@ -1,7 +1,19 @@
-
 *{
     margin: none;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .Landing-container{
+    background-color: #FFF5EE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Landing-hero-content{
+    font-size: 200px;
+    font-family: Break;
+    transform: translateX(120px);
   }
 
