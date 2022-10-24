@@ -4,10 +4,41 @@
     height: 100vh !important;
     /* background: url('./assets/ring.mp4'); */
     overflow: hidden;
+    display: flex;
+
+}
+.skills1{
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 5vw;
+}
+.skills2{
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 75vw;
 }
 video{
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+    font-size: 30px;
+    color: #fff;
+}
+
+.Skills-marquee1{
+    font-size: 148PX;
+    font-family: 'Stretch Pro';
+}
+.Skills-marquee2{
+    font-size: 148PX;
+    font-family: 'Stretch Pro';
 }
