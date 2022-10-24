@@ -13,20 +13,21 @@ import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
 
 function App() {
-  let container = useRef(null);
+  // let container = useRef(null);
     
-       useEffect(() => {
+  //      useEffect(() => {
           
-          new LocomotiveScroll({
-             el: container,
-             smooth: true,
-             lerp: .04,
-             multiplier: .5
-          });
+  //         new LocomotiveScroll({
+  //            el: container,
+  //            smooth: true,
+  //            lerp: .04,
+  //            multiplier: .5
+  //         });
     
-       }, []);
+  //      }, []);
   return (
-    <div ref={el => container = el} data-scroll data-scroll-speed="1" className="App">
+    <div  className="App">
+      {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
       <Navbar/>
       <Landing/>
       <About/>
