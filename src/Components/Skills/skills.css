@@ -2,5 +2,11 @@
 
 .Skills-container{
     height: 100vh;
-    background-color: green;
+    /* background: url('./assets/ring.mp4'); */
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
