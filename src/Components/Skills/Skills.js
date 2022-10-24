@@ -13,7 +13,7 @@ function Skills() {
             GIT. BOOTSRAP. SASS. BLENDER. TAILWIND
           </Marquee>
           <Marquee  gradient={false} speed={80} className='Skills-marquee2'>
-            REACT. SASS. JAVASCRIPT. HTML. CSS. 
+            REACT. SASS. JAVASCRIPT. HTML. TAILWIND.  
           </Marquee>
           <div className='skills2'>LET'S TALK WORK</div>
         </div>
