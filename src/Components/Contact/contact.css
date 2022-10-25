@@ -2,5 +2,60 @@
 
 .Contact-container{
     height: 100vh;
-    background-color: black;
+    background-color: var(--black-shade2);
+}
+.Contact-top-container{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+}
+.contact-top-right{
+    color: var(--white-shade);
+}
+.contact-right-text{
+    width: 40vw;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+.Contact-marquee{
+    color: var(--white-shade);
+    font-size: 128px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-top: 2px solid #fff;
+}
+.socials-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials1{
+    list-style: none;
+    font-size: 30px;
+    color: VAR(--white-shade);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    color: white;
+}
+.list li a{
+    color: white;
+}
+.socials2{
+    font-weight: 500;
+    font-size: 30px;
+    color: VAR(--white-shade);
+    font-family: 'Poppins', sans-serif;
+}
+.socials3{
+    font-weight: 500;
+    font-size: 30px;
+    color: VAR(--white-shade);
+    font-family: 'Poppins', sans-serif;
 }
