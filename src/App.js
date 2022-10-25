@@ -14,20 +14,20 @@ import { useEffect, useRef } from 'react';
 
 
 function App() {
-  // let container = useRef(null);
+  let container = useRef(null);
     
-  //      useEffect(() => {
+       useEffect(() => {
           
-  //         new LocomotiveScroll({
-  //            el: container,
-  //            smooth: true,
-  //            lerp: .04,
-  //            multiplier: .5
-  //         });
+          new LocomotiveScroll({
+             el: container,
+             smooth: true,
+             lerp: .04,
+             multiplier: .5
+          });
     
-  //      }, []);
+       }, []);
   return (
-    <div  className="App">
+    <div  className="App" ref={el => container = el} data-scroll data-scroll-speed="1">
       {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
       <Navbar/>
       <Landing/>
