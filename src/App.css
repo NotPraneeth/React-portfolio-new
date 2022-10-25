@@ -1,3 +1,9 @@
+:root{
+  --white-shade: #FFF5EE;
+  --black-shade: #121212;
+}
+
+
 @font-face {
   font-family: 'Break';
   src: url('./fonts/Break-Regular.woff2') format('woff2'),
@@ -14,6 +20,15 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Crackvetica';
+  src: url('./fonts/Crackvetica.woff2') format('woff2'),
+      url('./fonts/Crackvetica.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 *{
   margin: none;

@@ -10,7 +10,7 @@ function Skills() {
         <div className='skills-content'>
           <div className='skills1'>WHAT I AM GOOD AT</div>
           <Marquee  direction='right' speed={80} gradient={false} className='Skills-marquee1'>
-            GIT. BOOTSRAP. SASS. BLENDER. TAILWIND
+            GIT. BOOTSTRAP. SASS. BLENDER. TAILWIND
           </Marquee>
           <Marquee  gradient={false} speed={80} className='Skills-marquee2'>
             REACT. SASS. JAVASCRIPT. HTML. TAILWIND.  

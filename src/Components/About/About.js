@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import face from './assets/face-2.png'
+import face from './assets/starface.jpg'
 function About() {
   return (
     <div className='About-container'>
