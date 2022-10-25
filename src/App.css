@@ -4,6 +4,11 @@
   --white-shade: #FFF5EE;
   --black-shade: #121212;
   --black-shade2: #16161D;
+  --white: #fafafa;
+  --blue: #1300ff;
+
+  --background: var(--black-shade);
+  --accent: var(--white-shade);
 }
 
 
@@ -37,6 +42,20 @@
   margin: none;
   padding: 0;
   box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  height: 1px;
+  width: 0px;
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
 }
 .progress-bar {
   position: fixed;
