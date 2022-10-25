@@ -11,7 +11,7 @@ import './fonts/Break-Regular.woff';
 import './fonts/Break-Regular.woff2';
 import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
-
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function App() {
   // let container = useRef(null);
@@ -26,9 +26,16 @@ function App() {
   //         });
     
   //      }, []);
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
   return (
     <div  className="App">
       {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <Navbar/>
       <Landing/>
       <About/>

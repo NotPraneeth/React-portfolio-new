@@ -18,7 +18,7 @@ function Contact() {
         <div className='socials-container'>
           <div className='socials1'>
                <ul className='list'>
-                  <li><a>HOME</a></li>
+                  <li ><a>HOME</a></li>
                   <li><a>ABOUT</a></li>
                   <li><a>SKILLS</a></li>
               </ul>
