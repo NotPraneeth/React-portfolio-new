@@ -23,7 +23,7 @@ function Contact() {
                   <li><a>SKILLS</a></li>
               </ul>
             </div>
-          <div className='socials2'> - MADE WITH LOVE -</div>
+          <div className='socials2'> - LET'S BREW MAGIC -</div>
           <div className='socials3'>
           <ul className='list'>
                   <li><a href="mailto:rsphaha@gmail.com?Subject=Hello%20World" target="_top">EMAIL</a></li>
