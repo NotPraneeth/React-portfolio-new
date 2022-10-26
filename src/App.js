@@ -12,6 +12,7 @@ import './fonts/Break-Regular.woff2';
 import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
 import { motion, useScroll, useSpring } from "framer-motion";
+import { useState } from 'react';
 
 function App() {
   // let container = useRef(null);
@@ -32,6 +33,31 @@ function App() {
     damping: 30,
     restDelta: 0.001
   });
+
+  const [mousePosition,setMouseposition] = useState({
+    x: 0,
+    y:0,
+  });
+  const [cursorVariant,setCursorvariant] = useState("default");
+  useEffect(()=>{
+    const mouseMove = e =>{
+      setMouseposition({
+        x: e.clientX,
+        y: e.clientY,
+      })
+    }
+    window.addEventListener("mousemove",mouseMove);
+    return () => {
+      window.removeEventListener("mousemove",mouseMove);
+    }
+  },[]);
+
+  const variants = {
+    default: {
+      x: mousePosition.x -16,
+      y: mousePosition.y -16,
+    },
+  }
   return (
     <div  className="App">
       {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
@@ -41,6 +67,7 @@ function App() {
       <About/>
       <Skills/>
       <Contact/>
+      <motion.div className="cursor" variants={variants} animate={cursorVariant}/>
     </div>
   );
 }
