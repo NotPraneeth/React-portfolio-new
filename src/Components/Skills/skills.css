@@ -2,7 +2,6 @@
 
 .Skills-container{
     height: 100vh;
-    /* background: url('./assets/ring.mp4'); */
     overflow: hidden;
     display: flex;
 
@@ -21,9 +20,10 @@
 }
 video{
     position: absolute;
-    width: 100%;
-    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
+    object-fit: cover;
 }
 
 .skills-content{
@@ -43,3 +43,29 @@ video{
     font-size: 148PX;
     font-family: 'Stretch Pro';
 }
+
+@media only screen and (max-width: 1050px) {
+    .Landing-hero-content{
+      font-size: 150px;
+    }
+    .skills1{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 5vw;
+    }
+    .skills2{
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 55vw;
+    }
+    .Skills-marquee1{
+        font-size: 108PX;
+        font-family: 'Stretch Pro';
+    }
+    .Skills-marquee2{
+        font-size: 108PX;
+        font-family: 'Stretch Pro';
+    }
+  }

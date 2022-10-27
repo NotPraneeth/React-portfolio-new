@@ -59,3 +59,51 @@
     color: VAR(--white-shade);
     font-family: 'Poppins', sans-serif;
 }
+@media only screen and (max-width: 1050px) {
+    .Contact-top-container{
+        display: flex;
+        justify-content: space-around;
+        height: 70vh;
+        align-items: center;
+    }
+   
+    .contact-right-text{
+        width: 40vw;
+        font-weight: 600;
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 10vw;
+    }
+    .socials2{
+        font-weight: 500;
+        font-size: 25px;
+        color: VAR(--white-shade);
+        font-family: 'Poppins', sans-serif;
+    }
+    .socials3{
+        font-weight: 500;
+        font-size: 20px;
+        color: VAR(--white-shade);
+        font-family: 'Poppins', sans-serif;
+        margin-right: 7vw;
+    }
+    .socials1{
+        font-weight: 500;
+        font-size: 20px;
+        color: VAR(--white-shade);
+        font-family: 'Poppins', sans-serif;
+    }
+    .Contact-marquee{
+        color: var(--white-shade);
+        font-size: 100px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        border-top: 2px solid #fff;
+    }
+    .list{
+        display: flex;
+        list-style: none;
+        gap: 2vw;
+        color: white;
+    }
+  }
