@@ -74,11 +74,14 @@
   border-radius: 50px;
 }
 .cursor{
-  background-color: var(--white-shade);
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
   height: 32px;
   width: 32px;
   border-radius: 50%;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import face from './assets/starface.jpg'
+import { motion } from "framer-motion"
 function About() {
   return (
     <div className='About-container'>

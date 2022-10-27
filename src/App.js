@@ -59,7 +59,7 @@ function App() {
     },
   }
   return (
-    <div  className="App">
+    <div  className="App" >
       {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
       <motion.div className="progress-bar" style={{ scaleX }} />
       <Navbar/>
@@ -67,7 +67,9 @@ function App() {
       <About/>
       <Skills/>
       <Contact/>
-      <motion.div className="cursor" variants={variants} animate={cursorVariant}/>
+      <motion.div className="cursor" variants={variants} animate={cursorVariant}>
+       
+        </motion.div>
     </div>
   );
 }
