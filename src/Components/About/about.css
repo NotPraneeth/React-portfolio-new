@@ -32,26 +32,30 @@
     font-weight: 500;
 }
 .About-right{
-    flex:1;
+
 }
 #face{
-    height: 100vh;
+    height: 50vh;
     width: 55vw;
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 375px) {
     .About-container{
         display: flex;
-        flex-direction: column;
-        height: 150vh;
+        flex-direction: column-reverse;
+        height: 120vh;
+        padding-bottom: 10vh;
     }
     .About-left-heading{
-        font-size: 28px;
+        font-size: 20px;
     }
-    .About-left{
-        margin-top: 10vh;
+    .About-left{  
+        margin-top: 5vh;  
     }
     #face{
         margin-top: 10vh;
         width: 100%;
+    }
+    .About-left-para{
+        font-size: 14px;
     }
   }

@@ -44,28 +44,31 @@ video{
     font-family: 'Stretch Pro';
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 375px) {
     .Landing-hero-content{
       font-size: 150px;
     }
     .skills1{
-        font-size: 30px;
+        font-size: 18px;
         font-weight: 600;
         font-family: 'Roboto Mono', monospace;
         margin-left: 5vw;
     }
     .skills2{
-        font-size: 30px;
+        font-size: 18px;
         font-weight: 900;
         font-family: 'Roboto Mono', monospace;
-        margin-left: 55vw;
+        margin-left: 48vw;
     }
     .Skills-marquee1{
-        font-size: 108PX;
+        font-size: 80PX;
         font-family: 'Stretch Pro';
     }
     .Skills-marquee2{
-        font-size: 108PX;
+        font-size: 80PX;
         font-family: 'Stretch Pro';
+    }
+    .Skills-container{
+        height: 80vh;
     }
   }
