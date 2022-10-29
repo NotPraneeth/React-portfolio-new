@@ -61,13 +61,13 @@
 }
 @media only screen and (max-width: 450px) {
     .Contact-container{
-        height: 91vh;
+        height: 70vh;
     }
     .Contact-top-container{
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
-        height: 70vh;
+        height: 50vh;
         align-items: center;
     }
     #fall{
