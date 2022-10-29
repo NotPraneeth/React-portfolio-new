@@ -32,27 +32,27 @@
     font-weight: 500;
 }
 .About-right{
-
+    height: 100vh
 }
 #face{
-    height: 50vh;
+    height: 100vh;
     width: 55vw;
 }
 @media only screen and (max-width: 450px) {
     .About-container{
         display: flex;
         flex-direction: column-reverse;
-        height: 120vh;
+        height: 110vh;
         padding-bottom: 10vh;
     }
     .About-left-heading{
         font-size: 20px;
     }
     .About-left{  
-        margin-top: 5vh;  
     }
     #face{
-        margin-top: 10vh;
+        height: 50vh;
+        margin-top: 0vh;
         width: 100%;
     }
     .About-left-para{
