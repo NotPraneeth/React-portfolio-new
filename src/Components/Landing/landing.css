@@ -18,7 +18,7 @@
     transform: translateX(50px);
     color: var(--white-shade);
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 390px) {
     .Landing-hero-content{
       font-size: 100px;
       transform: translateX(0px);

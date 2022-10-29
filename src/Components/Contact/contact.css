@@ -59,7 +59,7 @@
     color: VAR(--white-shade);
     font-family: 'Poppins', sans-serif;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
     .Contact-container{
         height: 91vh;
     }
