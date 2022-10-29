@@ -44,7 +44,7 @@ video{
     font-family: 'Stretch Pro';
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
     .Landing-hero-content{
       font-size: 150px;
     }
