@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-portfolio-new/static/css/main.97af9d70.css",
+    "main.js": "/React-portfolio-new/static/js/main.8a3f6c8c.js",
+    "static/media/nightlight.mp4": "/React-portfolio-new/static/media/nightlight.2284011d10d6d896247c.mp4",
+    "static/media/starface.jpg": "/React-portfolio-new/static/media/starface.2c3dbedc37af96ba81ab.jpg",
+    "static/media/Crackvetica.woff": "/React-portfolio-new/static/media/Crackvetica.4199b7534e94db0b41c5.woff",
+    "static/media/Crackvetica.woff2": "/React-portfolio-new/static/media/Crackvetica.423454e5bd43ca6e5dc4.woff2",
+    "static/media/StretchProRegular.woff": "/React-portfolio-new/static/media/StretchProRegular.a1f7f1b67b969d1fe448.woff",
+    "static/media/Break-Regular.woff": "/React-portfolio-new/static/media/Break-Regular.db20bb932ea5835c1ca4.woff",
+    "static/media/StretchProRegular.woff2": "/React-portfolio-new/static/media/StretchProRegular.e4c419998c3ca4f98b37.woff2",
+    "static/media/Break-Regular.woff2": "/React-portfolio-new/static/media/Break-Regular.ec4b3fdc081cd633633a.woff2",
+    "static/media/fall.png": "/React-portfolio-new/static/media/fall.da5f6d5d86bfc1b3956f.png",
+    "index.html": "/React-portfolio-new/index.html",
+    "main.97af9d70.css.map": "/React-portfolio-new/static/css/main.97af9d70.css.map",
+    "main.8a3f6c8c.js.map": "/React-portfolio-new/static/js/main.8a3f6c8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97af9d70.css",
+    "static/js/main.8a3f6c8c.js"
+  ]
+}
