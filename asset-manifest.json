@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.172d0c86.css",
-    "main.js": "/static/js/main.bf32eac7.js",
-    "static/media/nightlight.mp4": "/static/media/nightlight.2284011d10d6d896247c.mp4",
-    "static/media/starface.jpg": "/static/media/starface.2c3dbedc37af96ba81ab.jpg",
-    "static/media/Crackvetica.woff": "/static/media/Crackvetica.4199b7534e94db0b41c5.woff",
-    "static/media/Crackvetica.woff2": "/static/media/Crackvetica.423454e5bd43ca6e5dc4.woff2",
-    "static/media/StretchProRegular.woff": "/static/media/StretchProRegular.a1f7f1b67b969d1fe448.woff",
-    "static/media/Break-Regular.woff": "/static/media/Break-Regular.db20bb932ea5835c1ca4.woff",
-    "static/media/StretchProRegular.woff2": "/static/media/StretchProRegular.e4c419998c3ca4f98b37.woff2",
-    "static/media/Break-Regular.woff2": "/static/media/Break-Regular.ec4b3fdc081cd633633a.woff2",
-    "static/media/fall.png": "/static/media/fall.da5f6d5d86bfc1b3956f.png",
-    "index.html": "/index.html",
-    "main.172d0c86.css.map": "/static/css/main.172d0c86.css.map",
-    "main.bf32eac7.js.map": "/static/js/main.bf32eac7.js.map"
+    "main.css": "/portfolio/static/css/main.b2ac6a60.css",
+    "main.js": "/portfolio/static/js/main.df408a23.js",
+    "static/media/nightlight.mp4": "/portfolio/static/media/nightlight.2284011d10d6d896247c.mp4",
+    "static/media/starface.jpg": "/portfolio/static/media/starface.2c3dbedc37af96ba81ab.jpg",
+    "static/media/Crackvetica.woff": "/portfolio/static/media/Crackvetica.4199b7534e94db0b41c5.woff",
+    "static/media/Crackvetica.woff2": "/portfolio/static/media/Crackvetica.423454e5bd43ca6e5dc4.woff2",
+    "static/media/StretchProRegular.woff": "/portfolio/static/media/StretchProRegular.a1f7f1b67b969d1fe448.woff",
+    "static/media/Break-Regular.woff": "/portfolio/static/media/Break-Regular.db20bb932ea5835c1ca4.woff",
+    "static/media/StretchProRegular.woff2": "/portfolio/static/media/StretchProRegular.e4c419998c3ca4f98b37.woff2",
+    "static/media/Break-Regular.woff2": "/portfolio/static/media/Break-Regular.ec4b3fdc081cd633633a.woff2",
+    "static/media/fall.png": "/portfolio/static/media/fall.da5f6d5d86bfc1b3956f.png",
+    "index.html": "/portfolio/index.html",
+    "main.b2ac6a60.css.map": "/portfolio/static/css/main.b2ac6a60.css.map",
+    "main.df408a23.js.map": "/portfolio/static/js/main.df408a23.js.map"
   },
   "entrypoints": [
-    "static/css/main.172d0c86.css",
-    "static/js/main.bf32eac7.js"
+    "static/css/main.b2ac6a60.css",
+    "static/js/main.df408a23.js"
   ]
 }
