@@ -9,7 +9,6 @@ import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 import './fonts/Break-Regular.woff';
 import './fonts/Break-Regular.woff2';
-import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useState } from 'react';
