@@ -12,20 +12,9 @@ import './fonts/Break-Regular.woff2';
 import { useEffect, useRef } from 'react';
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useState } from 'react';
-
+import AnimatedCursor from "react-animated-cursor"
 function App() {
-  // let container = useRef(null);
-    
-  //      useEffect(() => {
-          
-  //         new LocomotiveScroll({
-  //            el: container,
-  //            smooth: true,
-  //            lerp: .04,
-  //            multiplier: .5
-  //         });
-    
-  //      }, []);
+
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -37,7 +26,6 @@ function App() {
     x: 0,
     y:0,
   });
-  const [cursorVariant,setCursorvariant] = useState("default");
   useEffect(()=>{
     const mouseMove = e =>{
       setMouseposition({
@@ -51,24 +39,44 @@ function App() {
     }
   },[]);
 
-  const variants = {
-    default: {
-      x: mousePosition.x -16,
-      y: mousePosition.y -16,
-    },
-  }
   return (
     <div  className="App" >
-      {/* add this line above ref={el => container = el} data-scroll data-scroll-speed="1" */}
+      <AnimatedCursor innerSize={45}
+      outerSize={0}
+      hasBlendMode={true}
+      innerStyle={{
+        backgroundColor: 'var(--white-shade)',
+        mixBlendMode: 'exclusion'
+      }}
+      outerAlpha={0.5}
+      innerScale={1.7}
+      outerScale={1}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link',
+        '.landing-text',
+        '.About-left-heading',
+        '.About-left-para',
+        '.Skills-marquee1',
+        '.Skills-marquee2',
+        '.contact-right-text',
+        '.Contact-marquee',
+      ]}/>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <Navbar/>
       <Landing/>
       <About/>
       <Skills/>
       <Contact/>
-      <motion.div className="cursor" variants={variants} animate={cursorVariant}>
-       
-        </motion.div>
     </div>
   );
 }
