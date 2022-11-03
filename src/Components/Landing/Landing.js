@@ -22,7 +22,7 @@ function Landing() {
               </div>
             </div>
             <div className='world-container'>
-            <motion.span initial={{y:"100%"}} whileInView={{y:"0"}} transition={{duration:1,ease:'easeOut',delay:0.2}} className='world-landing'>World</motion.span>
+            <motion.span initial={{y:"100%"}} whileInView={{y:0}} transition={{duration:1,ease:'easeOut',delay:0.2}} className='world-landing'>World</motion.span>
             </div>
             </span>
             </motion.div>
