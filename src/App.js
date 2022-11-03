@@ -23,24 +23,6 @@ function App() {
     damping: 30,
     restDelta: 0.001
   });
-
-  const [mousePosition,setMouseposition] = useState({
-    x: 0,
-    y:0,
-  });
-  useEffect(()=>{
-    const mouseMove = e =>{
-      setMouseposition({
-        x: e.clientX,
-        y: e.clientY,
-      })
-    }
-    window.addEventListener("mousemove",mouseMove);
-    return () => {
-      window.removeEventListener("mousemove",mouseMove);
-    }
-  },[]);
-
   return (
     <div className="App" >
       <motion.div className="progress-bar" style={{ scaleX }} />
@@ -76,7 +58,7 @@ function App() {
         '.Contact-marquee',
       ]}/>
       <motion.div>
-      <AnimatePresence>
+      <AnimatePresence initial={true}>
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='about' element={<About/>}/>

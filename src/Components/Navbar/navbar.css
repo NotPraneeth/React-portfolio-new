@@ -35,3 +35,10 @@
     color: var(--white-shade);
 
 }
+
+@media only screen and (max-width: 450px) {
+    .socials-nav{
+        display: none;
+    }
+   
+  }

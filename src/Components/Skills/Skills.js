@@ -9,14 +9,14 @@ function Skills() {
       
         <video src={skillsbg} autoPlay loop muted id='skillsbg' type='video/mp4'/>
         <div className='skills-content'>
-          <div className='skills1'>WHAT I AM GOOD AT</div>
+          <motion.div transition={{duration:0.5,ease:[0.6,0.1,-0.05,0.9]}} initial={{opacity:0}} animate={{opacity:1}}  className='skills1'>WHAT I AM GOOD AT</motion.div>
           <Marquee  direction='right' speed={140} gradient={false} className='Skills-marquee1'>
             GIT BOOTSTRAP SASS TAILWIND
           </Marquee>
           <Marquee  gradient={false} speed={140} className='Skills-marquee2'>
             REACT BLENDER JAVASCRIPT HTML 
           </Marquee>
-          <div className='skills2'>LET'S TALK WORK</div>
+          <motion.div transition={{duration:0.5,ease:[0.6,0.1,-0.05,0.9]}} initial={{opacity:0}} animate={{opacity:1}} className='skills2'>LET'S TALK WORK</motion.div>
         </div>
      
       
