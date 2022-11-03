@@ -53,6 +53,9 @@
     .About-left-heading{
         font-size: 20px;
     }
+    .about-left-heading-container{
+        transform: translateY(30px);
+    }
     .About-left{  
     }
     #face{
