@@ -26,7 +26,6 @@ function App() {
   return (
     <div className="App" >
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar/>
       <AnimatedCursor innerSize={45}
       outerSize={0}
       hasBlendMode={true}
@@ -58,7 +57,8 @@ function App() {
         '.Contact-marquee',
       ]}/>
       <motion.div>
-      <AnimatePresence initial={true}>
+      <AnimatePresence initial={true} exitBeforeEnter>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='about' element={<About/>}/>

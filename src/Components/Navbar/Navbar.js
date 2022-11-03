@@ -1,16 +1,21 @@
+import { MotionConfig } from 'framer-motion'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css'
+import { motion } from "framer-motion"
 function Navbar() {
   return (
     <div className='navbar-container'>
-        <Link to='/' className='navbar-logo'> PRANEETH</Link>
+      <motion.div initial={{y:"-100%" }} animate={{y:0}} transition={{duration:0.75,ease:"easeOut"}} >
+      <Link to='/' className='navbar-logo'> PRANEETH</Link>
+      </motion.div>
+        
         <div className='socials-nav'>
                <ul className='list-nav'>
-                  <li><Link to='/'>HOME</Link></li>
-                  <li><Link to = '/about'>ABOUT</Link></li>
-                  <li ><Link to = '/skills'>SKILLS</Link></li>
-                  <li ><Link to = '/contact'>CONTACT</Link></li>
+                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:0.75,ease:"easeOut"}}><Link to='/'>HOME</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.00,ease:"easeOut"}}><Link to = '/about'>ABOUT</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.25,ease:"easeOut"}} ><Link to = '/skills'>SKILLS</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.5,ease:"easeOut"}} ><Link to = '/contact'>CONTACT</Link></motion.li>
 
               </ul>
             </div>

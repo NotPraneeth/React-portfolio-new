@@ -4,7 +4,9 @@
     box-sizing: border-box;
   }
 .landing-text{
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: -20vh;
 }
   .Landing-container{
     background-color: var(--black-shade);
@@ -13,29 +15,60 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    top: 10vh;
   }
   .Landing-hero-content{
-    letter-spacing: 20px;
-    font-size: 200px;
+    /* letter-spacing: 20px; */
+    font-size: 260px;
     font-family: 'Crackvetica';
-    transform: translateX(50px);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: var(--white-shade);
-    overflow: hidden;
+    width: 100vw;
+    line-height: 250px;
+  }
+  .hello-landing{
+    display: flex;
+    margin-left:10vw;
+  }
+  .hello-container{
+    display: flex;
+    gap: 10vw;
+  }
+  .hello-text{
+    align-self: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .world-landing{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
   }
   @media only screen and (max-width: 450px) {
     .Landing-hero-content{
-      font-size: 100px;
-      transform: translateX(0px);
+      font-size: 200px;
     }
     .landing-text{
       display: flex;
       flex-direction: column;
-      gap: 120px;
       align-items: center;
-      transform: translateX(10px);
-      font-size: 50px;
+      font-size: 100px;
+      line-height: 100px;
     }
     .Landing-container{
       height: 80vh;
+    }
+    .hello-text{
+      display: none;
+    }
+    .hello-landing{
+      display: flex;
+      margin-left:0vw;
+    }
+    .world-landing{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 0vw;
     }
   }

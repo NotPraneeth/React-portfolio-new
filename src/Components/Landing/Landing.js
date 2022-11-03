@@ -13,7 +13,16 @@ function Landing() {
     <>
         <motion.div initial={{opacity:0 }} animate={{opacity:1}} transition={{transition}}className='Landing-container'>
     <div>
-        <motion.div className='Landing-hero-content'><span className='landing-text'>HELLO<br></br>WORLD</span></motion.div>
+        <motion.div className='Landing-hero-content'>
+          <span className='landing-text'>
+            <div className='hello-container'>
+              <span className='hello-landing'>hello</span>
+              <div className='hello-text'> your project is cool 😎 <br></br> but let's make it cooler🎉</div>
+            </div>
+            
+            <span className='world-landing'>World</span>
+            </span>
+            </motion.div>
     </div>
     </motion.div>
     <About/>
