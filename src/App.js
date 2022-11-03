@@ -55,6 +55,9 @@ function App() {
         '.Skills-marquee2',
         '.contact-right-text',
         '.Contact-marquee',
+        '.hello-landing',
+        '.hello-text',
+        '.world-landing'
       ]}/>
       <motion.div>
       <AnimatePresence initial={true} exitBeforeEnter>

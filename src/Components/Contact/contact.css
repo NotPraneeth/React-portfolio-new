@@ -13,6 +13,9 @@
 .contact-top-right{
     color: var(--white-shade);
 }
+.contact-top-left{
+    overflow: hidden;
+}
 .contact-right-text{
     width: 40vw;
     font-weight: 600;

@@ -6,9 +6,13 @@
 .About-container{
     display: flex;
     height: 100vh;
-    background-color: var(--black-shade);
+    background-color: var(--black-shade2);
     overflow: hidden;
     color: var(--white-shade);
+}
+.about-left-heading-container{
+    overflow: hidden;
+    padding: 15px;
 }
 .About-left{
     display: flex;
@@ -26,6 +30,7 @@
     font-family: 'Roboto Mono', monospace;
 }
 .About-left-para{
+    padding: 15px;
     font-size: 1.4em;
     font-family: 'Roboto Mono', monospace;
     /* text-transform: uppercase; */

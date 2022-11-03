@@ -9,7 +9,7 @@
   gap: -20vh;
 }
   .Landing-container{
-    background-color: var(--black-shade);
+    background-color: var(--black-shade2);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@
   .hello-container{
     display: flex;
     gap: 10vw;
+    overflow: hidden;
   }
   .hello-text{
     align-self: center;
@@ -44,6 +45,13 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10vw;
+    overflow: hidden;
+  }
+  .world-container{
+    overflow: hidden;
+  }
+  .hello-text-container{
+    overflow: hidden;
   }
   @media only screen and (max-width: 450px) {
     .Landing-hero-content{
