@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6714ece4.css",
-    "main.js": "/static/js/main.b5100441.js",
+    "main.css": "/static/css/main.2eb41b03.css",
+    "main.js": "/static/js/main.9459cb0e.js",
     "static/media/nightlight.mp4": "/static/media/nightlight.2284011d10d6d896247c.mp4",
     "static/media/starface2.jpg": "/static/media/starface2.f810e77ee47f3951cf26.jpg",
     "static/media/Crackvetica.woff": "/static/media/Crackvetica.4199b7534e94db0b41c5.woff",
@@ -12,11 +12,11 @@
     "static/media/Break-Regular.woff2": "/static/media/Break-Regular.ec4b3fdc081cd633633a.woff2",
     "static/media/fall.png": "/static/media/fall.da5f6d5d86bfc1b3956f.png",
     "index.html": "/index.html",
-    "main.6714ece4.css.map": "/static/css/main.6714ece4.css.map",
-    "main.b5100441.js.map": "/static/js/main.b5100441.js.map"
+    "main.2eb41b03.css.map": "/static/css/main.2eb41b03.css.map",
+    "main.9459cb0e.js.map": "/static/js/main.9459cb0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6714ece4.css",
-    "static/js/main.b5100441.js"
+    "static/css/main.2eb41b03.css",
+    "static/js/main.9459cb0e.js"
   ]
 }
