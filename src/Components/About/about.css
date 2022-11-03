@@ -44,6 +44,7 @@
         flex-direction: column-reverse;
         height: 110vh;
         padding-bottom: 10vh;
+        position: absolute;
     }
     .About-left-heading{
         font-size: 20px;

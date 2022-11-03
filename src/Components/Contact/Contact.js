@@ -2,16 +2,16 @@ import React from 'react'
 import './contact.css'
 import fall from './assets/fall.png'
 import Marquee from "react-fast-marquee";
-
+import { motion } from "framer-motion";
 function Contact() {
   return (
-    <div className='Contact-container'>
+    <motion.div initial={{opacity:0 }} animate={{opacity:1}} transition={{duration:0.75,ease:"easeOut"}} className='Contact-container'>
       <div className='Contact-top-container'>
-        <div className='contact-top-left'>
+        <motion.div animate={{y:0}} intial={{y:"100%"}} transition={{delay:0.5,duration:0.5}}  className='contact-top-left'>
         <img src={fall} alt="Logo" id = "fall" />
-        </div>
+        </motion.div>
         <div className='contact-top-right'>
-          <div className='contact-right-text'>Stuck on a project? write to us and we’ll get it done for you.</div>
+          <motion.div animate={{y:0}} intial={{y:"100%"}} transition={{delay:0.5,duration:0.5}} className='contact-right-text'>Stuck on a project? write to us and we’ll get it done for you.</motion.div>
         </div>
       </div>
       <div className='Contact-bottom-container'>
@@ -36,7 +36,7 @@ function Contact() {
                 MADE WITH LOVE BY PRANEETH! 
         </Marquee>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

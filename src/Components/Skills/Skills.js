@@ -2,9 +2,10 @@ import React from 'react'
 import './skills.css'
 import skillsbg from './assets/nightlight.mp4'
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion"
 function Skills() {
   return (
-    <div className='Skills-container'>
+    <motion.div initial={{opacity:0 }} animate={{opacity:1}} transition={{duration:0.75,ease:"easeOut"}} className='Skills-container'>
       
         <video src={skillsbg} autoPlay loop muted id='skillsbg' type='video/mp4'/>
         <div className='skills-content'>
@@ -19,7 +20,7 @@ function Skills() {
         </div>
      
       
-    </div>
+    </motion.div>
   )
 }
 

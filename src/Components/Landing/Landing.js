@@ -5,12 +5,12 @@ import { useState } from 'react';
 import { useEffect, useRef } from 'react';
 function Landing() {
   return (
-    <div className='Landing-container'>
+    <motion.div initial={{opacity:0 }} animate={{opacity:1}} transition={{duration:0.75,ease:"easeOut"}}className='Landing-container'>
     <div>
-        <div className='Landing-hero-content'><span className='landing-text'>HELLO<br></br>WORLD</span>  </div>
+        <motion.div className='Landing-hero-content'><motion.span initial={{y:"100%",opacity:0 }} animate={{y:"0%",opacity:1}} transition={{duration:0.75,ease:"easeOut"}}className='landing-text'>HELLO<br></br>WORLD</motion.span>  </motion.div>
     </div>
         
-    </div>
+    </motion.div>
   )
 }
 

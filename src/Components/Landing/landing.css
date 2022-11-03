@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+.landing-text{
+  overflow: hidden;
+}
   .Landing-container{
     background-color: var(--black-shade);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   .Landing-hero-content{
     letter-spacing: 20px;
@@ -17,6 +20,7 @@
     font-family: 'Crackvetica';
     transform: translateX(50px);
     color: var(--white-shade);
+    overflow: hidden;
   }
   @media only screen and (max-width: 450px) {
     .Landing-hero-content{

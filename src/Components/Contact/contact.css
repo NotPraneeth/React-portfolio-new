@@ -18,6 +18,7 @@
     font-weight: 600;
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 .Contact-marquee{
     color: var(--white-shade);

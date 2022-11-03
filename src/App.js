@@ -13,6 +13,8 @@ import { useEffect, useRef } from 'react';
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useState } from 'react';
 import AnimatedCursor from "react-animated-cursor"
+import {Routes,Route} from 'react-router-dom';
+import { AnimatePresence} from 'framer-motion';
 function App() {
 
   const { scrollYProgress } = useScroll();
@@ -40,13 +42,15 @@ function App() {
   },[]);
 
   return (
-    <div  className="App" >
+    <div className="App" >
+      <motion.div className="progress-bar" style={{ scaleX }} />
+      <Navbar/>
       <AnimatedCursor innerSize={45}
       outerSize={0}
       hasBlendMode={true}
       innerStyle={{
         backgroundColor: 'var(--white-shade)',
-        mixBlendMode: 'exclusion'
+        mixBlendMode: 'exclusion',
       }}
       outerAlpha={0.5}
       innerScale={1.7}
@@ -71,12 +75,18 @@ function App() {
         '.contact-right-text',
         '.Contact-marquee',
       ]}/>
-      <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar/>
-      <Landing/>
-      <About/>
-      <Skills/>
-      <Contact/>
+      <motion.div>
+      <AnimatePresence>
+      <Routes>
+        <Route path='/' element={<Landing/>}/>
+        <Route path='about' element={<About/>}/>
+        <Route path='skills' element={<Skills/>}/>
+        <Route path='contact' element={<Contact/>}/>
+     </Routes>
+      </AnimatePresence>
+      </motion.div>
+      
+      
     </div>
   );
 }
