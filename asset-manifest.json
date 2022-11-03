@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0738b00b.css",
-    "main.js": "/static/js/main.fe9b2f48.js",
+    "main.css": "/static/css/main.1eee7dad.css",
+    "main.js": "/static/js/main.75192560.js",
+    "static/media/starface2.jpg": "/static/media/starface2.be0c5faf076d5486d9ae.jpg",
     "static/media/nightlight.mp4": "/static/media/nightlight.2284011d10d6d896247c.mp4",
-    "static/media/starface.jpg": "/static/media/starface.2c3dbedc37af96ba81ab.jpg",
     "static/media/Crackvetica.woff": "/static/media/Crackvetica.4199b7534e94db0b41c5.woff",
     "static/media/Crackvetica.woff2": "/static/media/Crackvetica.423454e5bd43ca6e5dc4.woff2",
     "static/media/StretchProRegular.woff": "/static/media/StretchProRegular.a1f7f1b67b969d1fe448.woff",
@@ -12,11 +12,11 @@
     "static/media/Break-Regular.woff2": "/static/media/Break-Regular.ec4b3fdc081cd633633a.woff2",
     "static/media/fall.png": "/static/media/fall.da5f6d5d86bfc1b3956f.png",
     "index.html": "/index.html",
-    "main.0738b00b.css.map": "/static/css/main.0738b00b.css.map",
-    "main.fe9b2f48.js.map": "/static/js/main.fe9b2f48.js.map"
+    "main.1eee7dad.css.map": "/static/css/main.1eee7dad.css.map",
+    "main.75192560.js.map": "/static/js/main.75192560.js.map"
   },
   "entrypoints": [
-    "static/css/main.0738b00b.css",
-    "static/js/main.fe9b2f48.js"
+    "static/css/main.1eee7dad.css",
+    "static/js/main.75192560.js"
   ]
 }
