@@ -22,8 +22,15 @@
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     color: #121212;
+    border: none;
 }
+.button-container{
+    background-color: #EDE8E8;
+    border-radius: 20px;
+    white-space: nowrap;
+    overflow: hidden;
 
+}
 .btn-link{
     color: #121212;
 }
