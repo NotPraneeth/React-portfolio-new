@@ -6,16 +6,16 @@ import { motion } from "framer-motion"
 function Navbar() {
   return (
     <div className='navbar-container'>
-      <motion.div initial={{y:"-100%" }} animate={{y:0}} transition={{duration:0.75,ease:"easeOut"}} >
+      <motion.div initial={{y:"-100%" }} whileInView={{y:0}} transition={{duration:0.75,ease:"easeOut"}} >
       <Link to='/' className='navbar-logo'> PRANEETH</Link>
       </motion.div>
         
         <div className='socials-nav'>
                <ul className='list-nav'>
-                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:0.75,ease:"easeOut"}}><Link to='/'>HOME</Link></motion.li>
-                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.00,ease:"easeOut"}}><Link to = '/about'>ABOUT</Link></motion.li>
-                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.25,ease:"easeOut"}} ><Link to = '/skills'>SKILLS</Link></motion.li>
-                  <motion.li initial={{y:"-100%" }} animate={{y:0}} transition={{duration:1.5,ease:"easeOut"}} ><Link to = '/contact'>CONTACT</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} whileInView={{y:0}} transition={{duration:0.75,ease:"easeOut"}}><Link to='/'>HOME</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} whileInView={{y:0}} transition={{duration:1.00,ease:"easeOut"}}><Link to = '/about'>ABOUT</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} whileInView={{y:0}} transition={{duration:1.25,ease:"easeOut"}} ><Link to = '/skills'>SKILLS</Link></motion.li>
+                  <motion.li initial={{y:"-100%" }} whileInView={{y:0}} transition={{duration:1.5,ease:"easeOut"}} ><Link to = '/contact'>CONTACT</Link></motion.li>
 
               </ul>
             </div>
