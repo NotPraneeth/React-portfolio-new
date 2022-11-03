@@ -41,15 +41,19 @@
     color: VAR(--white-shade);
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+
 }
 .list{
     display: flex;
     list-style: none;
     gap: 3vw;
     color: white;
+
 }
 .list li a{
     color: white;
+    text-decoration: none;
+
 }
 .socials2{
     font-weight: 500;
