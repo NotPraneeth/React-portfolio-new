@@ -134,4 +134,9 @@
     height: 0;
     width: 0;
   }
+  .loading{
+    
+   font-size:50pt;
+   
+  }
 }
