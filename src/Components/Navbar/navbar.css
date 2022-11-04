@@ -71,5 +71,17 @@
     .socials-nav{
         display: none;
     }
-   
+    .navbar-container{
+        margin-top: 0vh;
+    }
+    .navbar-logo{
+        margin-left: 5vw;
+        color: #EDE8E8;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    
+    }
   }

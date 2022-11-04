@@ -15,7 +15,17 @@ import { useState } from 'react';
 import AnimatedCursor from "react-animated-cursor"
 import {Routes,Route} from 'react-router-dom';
 import { AnimatePresence} from 'framer-motion';
+
 function App() {
+
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -25,51 +35,66 @@ function App() {
   });
   return (
     <div className="App" >
-      <motion.div className="progress-bar" style={{ scaleX }} />
-      <AnimatedCursor innerSize={45}
-      outerSize={0}
-      hasBlendMode={true}
-      innerStyle={{
-        backgroundColor: 'var(--white-shade)',
-        mixBlendMode: 'exclusion',
-      }}
-      outerAlpha={0.5}
-      innerScale={1.7}
-      outerScale={1}
-      clickables={[
-        'a',
-        'input[type="text"]',
-        'input[type="email"]',
-        'input[type="number"]',
-        'input[type="submit"]',
-        'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-        '.link',
-        '.landing-text',
-        '.About-left-heading',
-        '.About-left-para',
-        '.Skills-marquee1',
-        '.Skills-marquee2',
-        '.contact-right-text',
-        '.Contact-marquee',
-        '.hello-landing',
-        '.hello-text',
-        '.world-landing'
-      ]}/>
-      <motion.div>
-      <AnimatePresence initial={true} exitBeforeEnter>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Landing/>}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='skills' element={<Skills/>}/>
-        <Route path='contact' element={<Contact/>}/>
-     </Routes>
-      </AnimatePresence>
-      </motion.div>
+      {
+        loading ? (
+          <div className="loader-container">
+            <div class="loading wave">
+               Loading
+            </div>
+          </div>
+        ) : (
+          <>
+          
+          <motion.div className="progress-bar" style={{ scaleX }} />
+          <AnimatedCursor innerSize={45}
+          outerSize={0}
+          hasBlendMode={true}
+          innerStyle={{
+            backgroundColor: 'var(--white-shade)',
+            mixBlendMode: 'exclusion',
+          }}
+          outerAlpha={0.5}
+          innerScale={1.7}
+          outerScale={1}
+          clickables={[
+            'a',
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            'label[for]',
+            'select',
+            'textarea',
+            'button',
+            '.link',
+            '.landing-text',
+            '.About-left-heading',
+            '.About-left-para',
+            '.Skills-marquee1',
+            '.Skills-marquee2',
+            '.contact-right-text',
+            '.Contact-marquee',
+            '.hello-landing',
+            '.hello-text',
+            '.world-landing'
+          ]}/>
+          <motion.div>
+          <AnimatePresence initial={true} exitBeforeEnter>
+          <Navbar/>
+          <Routes>
+            <Route path='/' element={<Landing/>}/>
+            <Route path='about' element={<About/>}/>
+            <Route path='skills' element={<Skills/>}/>
+            <Route path='contact' element={<Contact/>}/>
+         </Routes>
+          </AnimatePresence>
+          </motion.div>
+          </>
+        )
+
+      };
+     
       
       
     </div>
