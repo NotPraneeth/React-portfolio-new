@@ -125,6 +125,7 @@
 .wave{
   background-image:url(./assets/what.gif);
  background-clip: text;
+ -webkit-background-clip: text;
  background-repeat: repeat-x;
  color:rgba(0,0,0,0);
 
