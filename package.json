@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://notpraneeth.github.io",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +23,8 @@
     "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -42,7 +46,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.0.1",
-    "vite": "^3.0.7",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
+    "vite": "^3.0.7"
   }
 }

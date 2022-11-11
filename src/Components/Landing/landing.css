@@ -1,82 +1,82 @@
-*{
-    margin: none;
-    padding: 0;
-    box-sizing: border-box;
-  }
-.landing-text{
+* {
+  margin: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+.landing-text {
   display: flex;
   flex-direction: column;
   gap: -20vh;
 }
-  .Landing-container{
-    background-color: var(--black-shade2);
-    height: 100vh;
+.Landing-container {
+  background-color: var(--black-shade2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  top: 10vh;
+}
+.Landing-hero-content {
+  /* letter-spacing: 20px; */
+  font-size: 260px;
+  font-family: "Crackvetica";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--white-shade);
+  width: 100vw;
+  line-height: 250px;
+}
+.hello-landing {
+  display: flex;
+  margin-left: 10vw;
+}
+.hello-container {
+  display: flex;
+  gap: 10vw;
+  overflow: hidden;
+}
+.hello-text {
+  align-self: center;
+  font-size: 30px;
+  line-height: 40px;
+}
+.world-landing {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10vw;
+  overflow: hidden;
+}
+.world-container {
+  overflow: hidden;
+}
+.hello-text-container {
+  overflow: hidden;
+}
+@media only screen and (max-width: 450px) {
+  .Landing-hero-content {
+    font-size: 200px;
+  }
+  .landing-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    overflow: hidden;
-    top: 10vh;
+    font-size: 100px;
+    line-height: 100px;
   }
-  .Landing-hero-content{
-    /* letter-spacing: 20px; */
-    font-size: 260px;
-    font-family: 'Crackvetica';
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: var(--white-shade);
-    width: 100vw;
-    line-height: 250px;
+  .Landing-container {
+    height: 90vh;
   }
-  .hello-landing{
+  .hello-text {
+    display: none;
+  }
+  .hello-landing {
     display: flex;
-    margin-left:10vw;
+    margin-left: 0vw;
   }
-  .hello-container{
-    display: flex;
-    gap: 10vw;
-    overflow: hidden;
-  }
-  .hello-text{
-    align-self: center;
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .world-landing{
+  .world-landing {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10vw;
-    overflow: hidden;
+    margin-right: 0vw;
   }
-  .world-container{
-    overflow: hidden;
-  }
-  .hello-text-container{
-    overflow: hidden;
-  }
-  @media only screen and (max-width: 450px) {
-    .Landing-hero-content{
-      font-size: 200px;
-    }
-    .landing-text{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 100px;
-      line-height: 100px;
-    }
-    .Landing-container{
-      height: 90vh;
-    }
-    .hello-text{
-      display: none;
-    }
-    .hello-landing{
-      display: flex;
-      margin-left:0vw;
-    }
-    .world-landing{
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 0vw;
-    }
-  }
+}

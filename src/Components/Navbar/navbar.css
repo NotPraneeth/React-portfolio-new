@@ -1,87 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@1,500&display=swap");
 
-
-
-.navbar-container{
-    margin-top: 5vh;
-    background-color: var(--black-shade2);
-    height: 7vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-    position: relative;
-    overflow: hidden;
+.navbar-container {
+  margin-top: 5vh;
+  background-color: var(--black-shade2);
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  position: relative;
+  overflow: hidden;
 }
-.download-btn{
-    background-color: #EDE8E8;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
-    font-size: 25px;
-    font-family: 'Roboto Mono', monospace;
-    color: #121212;
-    border: none;
+.download-btn {
+  background-color: #ede8e8;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: #121212;
+  border: none;
 }
-.button-container{
-    background-color: #EDE8E8;
-    border-radius: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-
-
+.button-container {
+  background-color: #ede8e8;
+  border-radius: 20px;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.btn-link{
-    color: #121212;
-    text-decoration: none;
-
+.btn-link {
+  color: #121212;
+  text-decoration: none;
 }
-.navbar-logo{
-    margin-left: 2vw;
-    color: #EDE8E8;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-
+.navbar-logo {
+  margin-left: 2vw;
+  color: #ede8e8;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
-.socials-nav{
-    list-style: none;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    margin-right: 5vw;
+.socials-nav {
+  list-style: none;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-right: 5vw;
 }
-.list-nav{
-    display: flex;
-    list-style: none;
-    gap: 3vw;
-    color: white;
+.list-nav {
+  display: flex;
+  list-style: none;
+  gap: 3vw;
+  color: white;
 }
-.list-nav li a{
-    color: var(--white-shade);
-    text-decoration: none;
-
-
+.list-nav li a {
+  color: var(--white-shade);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 450px) {
-    .socials-nav{
-        display: none;
-    }
-    .navbar-container{
-        margin-top: 0vh;
-    }
-    .navbar-logo{
-        margin-left: 5vw;
-        color: #EDE8E8;
-        font-family: 'Roboto Mono', monospace;
-        font-family: 'Poppins', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-    
-    }
+  .socials-nav {
+    display: none;
   }
+  .navbar-container {
+    margin-top: 0vh;
+  }
+  .navbar-logo {
+    margin-left: 5vw;
+    color: #ede8e8;
+    font-family: "Roboto Mono", monospace;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
