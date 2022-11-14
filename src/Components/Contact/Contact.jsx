@@ -95,8 +95,11 @@ function Contact() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
               >
-                <a href="https://www.instagram.com/rsphmm/" target="_blank">
-                  INSTAGRAM
+                <a
+                  href="https://www.linkedin.com/in/notpraneeth/"
+                  target="_blank"
+                >
+                  LINKEDIN
                 </a>
               </motion.li>
             </ul>

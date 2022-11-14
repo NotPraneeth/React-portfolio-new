@@ -26,7 +26,7 @@ function Landing() {
                   transition={{ duration: 1, ease: "easeOut" }}
                   className="hello-landing"
                 >
-                  hello
+                  Hello
                 </motion.span>
                 <div className="hello-text-container">
                   <motion.div
