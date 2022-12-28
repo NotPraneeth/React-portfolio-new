@@ -26,7 +26,7 @@ function Skills() {
           whileInView={{ opacity: 1 }}
           className="skills1"
         >
-          WHAT I AM GOOD AT
+          WHAT WE ARE GOOD AT
         </motion.div>
         <Marquee
           direction="right"
@@ -34,10 +34,10 @@ function Skills() {
           gradient={false}
           className="Skills-marquee1"
         >
-          GIT BOOTSTRAP SASS TAILWIND
+          GIT BOOTSTRAP SASS TAILWIND HTML CSS REACTJS
         </Marquee>
         <Marquee gradient={false} speed={140} className="Skills-marquee2">
-          REACT BLENDER JAVASCRIPT HTML
+          AUDIO VIDEO CONTENT CREATION MARKETING&
         </Marquee>
         <motion.div
           transition={{ duration: 0.5, ease: [0.6, 0.1, -0.05, 0.9] }}

@@ -26,7 +26,7 @@ function Landing() {
                   transition={{ duration: 1, ease: "easeOut" }}
                   className="hello-landing"
                 >
-                  Hello
+                  STOODIYO.
                 </motion.span>
                 <div className="hello-text-container">
                   <motion.div
@@ -39,16 +39,6 @@ function Landing() {
                     your project is cool 😎 <br></br> but let's make it cooler🎉
                   </motion.div>
                 </div>
-              </div>
-              <div className="world-container">
-                <motion.span
-                  initial={{ y: "100%" }}
-                  whileInView={{ y: 0 }}
-                  transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-                  className="world-landing"
-                >
-                  World
-                </motion.span>
               </div>
             </span>
           </motion.div>

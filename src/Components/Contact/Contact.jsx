@@ -106,7 +106,7 @@ function Contact() {
           </div>
         </div>
         <Marquee gradient={false} speed={180} className="Contact-marquee">
-          MADE WITH LOVE BY PRANEETH!
+          MADE WITH LOVE BY STOODIYO!
         </Marquee>
       </div>
     </motion.div>

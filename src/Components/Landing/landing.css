@@ -3,43 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
-.landing-text {
+/* .landing-text {
   display: flex;
   flex-direction: column;
-  gap: -20vh;
-}
+  gap: -40vh;
+} */
 .Landing-container {
   background-color: var(--black-shade2);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  top: 10vh;
+  /* overflow: hidden; */
 }
 .Landing-hero-content {
   /* letter-spacing: 20px; */
-  font-size: 260px;
+  font-size: 200px;
   font-family: "Crackvetica";
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: var(--white-shade);
   width: 100vw;
-  line-height: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* line-height: 250px; */
 }
 .hello-landing {
   display: flex;
-  margin-left: 10vw;
+  margin-left: 5vw;
+  rotate: -5deg;
 }
 .hello-container {
   display: flex;
-  gap: 10vw;
   overflow: hidden;
+  flex-direction: column;
 }
 .hello-text {
   align-self: center;
   font-size: 30px;
-  line-height: 40px;
+  line-height: 30px;
 }
 .world-landing {
   display: flex;

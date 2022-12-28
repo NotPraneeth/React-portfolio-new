@@ -26,7 +26,7 @@ function About() {
             className="About-left-heading"
           >
             {" "}
-            WHY DO I STAND OUT FROM THE CROWD?
+            WHY DO WE STAND OUT?
           </motion.div>
         </div>
         <motion.div
@@ -37,14 +37,11 @@ function About() {
           className="About-left-para"
         >
           {" "}
-          I'm Praneeth and I am passionate about my work. Because I love what I
-          do, I have a steady source of motivation that drives me to do my best.
-          This passion leads me to challenge myself daily and learn new skills
-          that help me do better work.I am a web-developer who believes in the
-          magical realm of web-developing and the spells you can cast upon your
-          user through the website, every website has a story to tell and i'm
-          here to tell the story and hopefully connect with my user so that the
-          both of us can get the most out of the website.
+          STOODIYO is a startup that aims to fulfill the demands of the client
+          from bringing in content to post producing the video professionally.
+          We make the process hassle free for the clients by providing each of
+          the clients a Personal assistant. Cutting down the unnecessary
+          confusion and repetitive communication.
         </motion.div>
       </div>
       <div className="About-right">
